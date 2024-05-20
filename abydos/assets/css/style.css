@@ -1,0 +1,74 @@
+
+body,
+.font-family-primary {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.9;
+}
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 225px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Navbar */
+.header .navbar-nav .nav-link:not(.btn) {	
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-right: .5rem;
+  margin-left: .5rem;
+}
+.dropdown-menu {
+  border-width: 2px;
+  border-style: solid;
+}
+.dropdown-menu.bg-secondary .dropdown-item {
+  color: #ffffff;
+}
+.dropdown-menu.bg-secondary .dropdown-item:hover {
+  color: #124562;
+  background: #ffffff;
+}
+
+/* Pricing */
+.pricing-wrap.active {
+  background-image: linear-gradient(-225deg, #fcbf23 0%, #f6e12f 48%, #fcbf23 100%);
+}
+.price__amount {
+  font-size: 400%;
+  line-height: 1.25;
+}
+.price__currency {
+    line-height: .8;
+}
+
+/* Media Query */
+@media screen and (min-height: 992px) {
+  /* Hero */
+  .hero {
+    height: 100%;
+    max-height: 600px;
+  }
+  .hero-inner > .row {
+    height: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+/* CTA */
+.CTA {
+    color: #ffffff;
+
+    .CTA-btn {
+        background-image: linear-gradient(to right, darken($primary_color, 10%), lighten($primary_color, 10%));
+    }
+}

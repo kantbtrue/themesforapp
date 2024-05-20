@@ -1,0 +1,24 @@
+@import 'variables';
+$theme-colors: (
+  "primary":   $primary_color,
+  "secondary": $secondary_color
+);
+$border-radius:            2px;
+$border-radius-lg:         2px;
+$border-radius:            2px;
+$btn-font-weight:          600;
+$input-placeholder-color:  #b5b5b5;
+$input-focus-border-color: $secondary_color;
+$input-btn-focus-box-shadow: 0 5px 3px -4px rgba($secondary_color, 0.25);
+@import '../vendors/bootstrap/scss/bootstrap';
+.btn-lg {
+    font-size: 18px;
+}
+.form-control-lg {
+    font-size: 18px;
+}
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    border-width: 2px;
+  }
+}

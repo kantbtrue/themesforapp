@@ -1,0 +1,57 @@
+
+body,
+.font-family-primary {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.75px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Features */
+.icon-wrap {
+  position: relative;
+}
+.icon__img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5px;
+  width: 90px;
+  margin: 0 auto;
+  z-index: 1;
+}
+.icon {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+}
+
+/* Footer */
+.footer-logo__img {
+  width: 200px;
+}

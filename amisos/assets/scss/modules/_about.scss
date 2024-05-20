@@ -1,0 +1,17 @@
+/* About Us */
+.video-wrapper {
+    position: relative;
+
+    .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 18px 26px;
+        border: 2px solid lighten($primary_color, 8%);
+        border-radius: 100%;
+        color: #ffffff;
+        background-color: $primary_color;
+        transform: translateY(-50%) translateX(-50%);
+        font-size: 22px;
+    }
+}

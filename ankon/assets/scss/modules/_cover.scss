@@ -1,0 +1,53 @@
+/* Cover */
+/* Header */
+.logo {
+    width: 180px;
+    height: 20px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    text-indent: -9999px;
+}
+.header {
+    padding: 30px 0;
+
+    .nav-item .nav-link {
+        color: #000000;
+        font-weight: $weight_bold;
+        padding: 10px 20px;
+
+        &.active {
+            color: $light_gray_color;
+        }
+        &:hover,
+        &:focus {
+            color: $primary_color;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .navbar-nav {
+            margin-top: 16px;
+            background: rgba($primary_color, 0.05);
+        }
+    }
+}
+.navbar-toggler {
+    padding: 15px 17.32px;
+    color: $primary_color;
+    background: rgba($primary_color, 0.05);
+    font-size: 29px;
+}
+/* Hero */
+.hero {
+    padding: 100px 0;
+    @media screen and (max-width: 991px) {
+        padding: 35px 0 0;
+    }
+    .btn-text {
+        padding: 10px;
+    }
+    .btn-or {
+        color: $light_gray_color;
+        font-size: 18px;
+        font-weight: $weight_bold;
+    }
+}

@@ -1,0 +1,220 @@
+/*
+
+Blue Color CSS
+Version: 1.0
+Author: kantbtrue
+Author URI: https://twitter.com/kantbtrue
+
+*/
+
+/* Link */
+a {
+	color: #29B6F6;
+}
+a:hover,
+a:focus {
+	color: #228be6;
+}
+a.text-primary:hover,
+a.text-primary:focus {
+	color: #228be6!important;
+}
+a.bg-primary:hover,
+a.bg-primary:focus {
+	background-color: #228be6!important;
+	color: #ffffff;
+}
+a.text-secondary:hover,
+a.text-secondary:focus {
+	color: #d9eeff!important;
+}
+a.bg-secondary:hover,
+a.bg-secondary:focus {
+	background-color: #d9eeff!important;
+	color: #ffffff;
+}
+a.text-white:hover,
+a.text-white:focus {
+	color: #ffffff!important;
+}
+a.text-black:hover,
+a.text-black:focus {
+	color: #000000;
+}
+a.text-dark-gray:hover,
+a.text-dark-gray:focus {
+	color: #000000;
+}
+a.text-gray:hover,
+a.text-gray:focus {
+	color: #555555;
+}
+
+/* Text */
+.text-primary {
+	color: #29B6F6!important;
+}
+.text-secondary {
+	color: #edf7ff!important;
+}
+.text-black {
+	color: #444444;
+}
+.text-dark-gray {
+	color: #555555;
+}
+.text-gray {
+	color: #a9a9a9;
+}
+.text-light-gray {
+	color: #f3f5f6;
+}
+
+/* Border */
+.border-color-primary {
+	border-color: #29B6F6!important;
+}
+.border-color-secondary {
+	border-color: #edf7ff!important;
+}
+.border-color-black {
+	border-color: #000000!important;
+}
+.border-color-dark-gray {
+	border-color: #555555!important;
+}
+.border-color-gray {
+	border-color: #a9a9a9!important;
+}
+.border-color-light-gray {
+	border-color: #f3f5f6!important;
+}
+
+/* Background */
+.bg-primary {
+	background-color: #29B6F6!important;
+}
+.bg-secondary {
+	background-color: #edf7ff!important;
+}
+.bg-black {
+	background-color: #000000;
+}
+.bg-dark-gray {
+	background-color: #555555;
+}
+.bg-gray {
+	background-color: #a9a9a9;
+}
+.bg-light-gray {
+	background-color: #f3f5f6;
+}
+.bg-light {
+	background-color: #fbfdff!important;
+}
+
+/* Form */
+.form-control:focus {
+	border-color: #29B6F6;
+	box-shadow: 0 0 0 0.2rem rgba(77, 171, 247, 0.25);
+}
+
+/* Button */
+.btn-primary {
+	background-color: #29B6F6;
+	border-color: #29B6F6;
+	color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn.btn-primary:not(:disabled):active {
+	background-color: #228be6;
+	border-color: #228be6;
+	color: #ffffff;
+}
+.btn-secondary {
+	background-color: #edf7ff;
+	border-color: #edf7ff;
+	color: #29B6F6;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn.btn-secondary:not(:disabled):active {
+	background-color: #d9eeff;
+	border-color: #d9eeff;
+	color: #29B6F6;
+}
+.btn-primary:focus,
+.btn.btn-primary:not(:disabled):active:focus,
+.btn-secondary:focus,
+.btn.btn-secondary:not(:disabled):active:focus {
+	box-shadow: 0 0 0 0.2rem rgba(222, 222, 222, 0.7);
+}
+.btn-white {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color: #444444;
+}
+.btn-white:hover,
+.btn-white:focus {
+	background-color: #444444;
+	border-color: #444444;
+	color: #ffffff;
+}
+.btn-black {
+	background-color: #444444;
+	border-color: #444444;
+	color: #ffffff;
+}
+.btn-black:hover,
+.btn-black:focus {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color: #444444;
+}
+.btn-outline-primary {
+	color: #29B6F6;
+	border-color: #29B6F6;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+	background-color: #29B6F6;
+	color: #ffffff;
+	border-color: #29B6F6;
+}
+.btn-outline-secondary {
+	color: #edf7ff;
+	border-color: #edf7ff;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+	background-color: #edf7ff;
+	color: #29B6F6;
+	border-color: #edf7ff;
+}
+.btn-outline-white {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+.btn-outline-white:hover,
+.btn-outline-white:focus {
+	background-color: #ffffff;
+	color: #444444;
+	border-color: #ffffff;
+}
+.btn-outline-black {
+	color: #444444;
+	border-color: #444444;
+}
+.btn-outline-black:hover,
+.btn-outline-black:focus {
+	background-color: #444444;
+	color: #ffffff;
+	border-color: #444444;
+}
+.btn.disabled {
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
+    color: #ffffff;
+    opacity: 0.35;
+}

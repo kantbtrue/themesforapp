@@ -1,0 +1,83 @@
+body,
+.font-family-primary {
+  font-family: 'Heebo', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.85px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Heebo', sans-serif;
+}
+.icon {
+  width: 42px;
+}
+
+/* Cover */
+.cover {
+  transition: background 0.2 ease;
+  background-size: contain;
+}
+.cover, .CTA {
+  background-image: url('../images/bg.png');
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Hero */
+.hero {
+  overflow: hidden;
+  padding: 100px 0;
+}
+.hero-absolute-img {
+  position: absolute;
+  top: auto;
+  bottom: -30px;
+  left: 50%;
+  width: 660px;
+}
+
+/* Features */
+.features-carousel-indicators {
+    bottom: -35px;
+}
+.features-carousel-indicators li {
+    width: 12px;
+    height: 12px;
+}
+.features-carousel-indicators li.active {
+  opacity: 0.5;
+}
+
+/* Footer */
+.footer-logo {
+  max-width: 180px;
+}
+.footer-logo-icon {
+  max-width: 32px;
+}
+
+/* Media Query */
+@media screen and (max-width: 990px) {
+  .feature__box {
+    border: unset !important;
+  }
+}

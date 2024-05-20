@@ -1,0 +1,139 @@
+/*
+
+Font CSS
+Version: 1.1
+Author: kantbtrue
+Author URI: https://github.com/kantbtrue/percentage-font-size-css
+
+*/
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+    text-rendering: optimizeLegibility;
+    line-height: 1.7;
+}
+.xxxxl-font-size {
+	font-size: 362.5%;
+}
+.xxxl-font-size {
+	font-size: 300%;
+}
+.xxl-font-size {
+	font-size: 235%;
+}
+h1,
+.xl-font-size {
+	font-size: 220%;
+}
+h2,
+.lg-font-size {
+	font-size: 180%;
+}
+h3,
+.md-font-size {
+	font-size: 150%;
+}
+h4,
+.base-plus-font-size {
+	font-size: 112.5%;
+}
+.base-font-size {
+	font-size: 100%;
+}
+h5,
+.sm-font-size {
+	font-size: 87.5%;
+}
+h6,
+.xs-font-size {
+	font-size: 70%;
+}
+.font-weight__100 {
+	font-weight: 100;
+}
+.font-weight__300 {
+	font-weight: 300;
+}
+.font-weight__400 {
+	font-weight: 400;
+}
+.font-weight__500 {
+	font-weight: 500;
+}
+.font-weight__600 {
+	font-weight: 600;
+}
+.font-weight__700 {
+	font-weight: 700;
+}
+.font-weight__900 {
+	font-weight: 900;
+	letter-spacing: 1.25px;
+}
+
+/* Media Query */
+@media screen and (max-width: 991px) {
+	.xxxxl-font-size {
+		font-size: 300%;
+	}
+	.xxxl-font-size {
+		font-size: 255%;
+	}
+	.xxl-font-size {
+		font-size: 225%;
+	}
+	.xl-font-size {
+		font-size: 180%;
+	}
+	.lg-font-size {
+		font-size: 160%;
+	}
+	.md-font-size {
+		font-size: 150%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.xxxxl-font-size {
+		font-size: 300%;
+	}
+	.xxxl-font-size {
+		font-size: 225%;
+	}
+	.xxl-font-size {
+		font-size: 200%;
+	}
+	.xl-font-size {
+		font-size: 180%;
+	}
+	.base-plus-font-size {
+		font-size: 105%;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	.xxxxl-font-size {
+		font-size: 225%;
+	}
+	.xxxl-font-size {
+		font-size: 200%;
+	}
+	.xxl-font-size {
+		font-size: 180%;
+	}
+	.xl-font-size {
+		font-size: 160%;
+	}
+	.lg-font-size {
+		font-size: 150%;
+	}
+	.md-font-size {
+		font-size: 125%;
+	}
+}

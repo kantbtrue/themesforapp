@@ -1,0 +1,182 @@
+/* =====================================
+Template Name:    Orator
+Author Name:      QDONOW Themes
+Author URI:       http://qdonow.com
+Description:      Multipurpose HTML Template
+Version:          1.0
+=========================================*/
+
+/*=======================
+ Extra small devices (portrait phones, less than 576px)
+=========================*/
+@media (max-width: 575px) {
+
+    /*----- Section -----*/
+    .section,
+    .content {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    /*-----  Owl Slider -----*/
+    .owl-carousel .owl-controls .owl-nav div.owl-prev {
+        left: 0;
+    }
+    .owl-carousel .owl-controls .owl-nav div.owl-next {
+        right: 0;
+    }
+
+    /*-----  Page -----*/
+    .page-overlay {
+        padding: 92px 0;
+    }
+
+    /*-----  Comment -----*/
+    .single-comment__meta a {
+        position: relative;
+        top: -12px;
+    }
+}
+
+/*=======================
+ Small devices (landscape phones, less than 768px)
+=========================*/
+@media (max-width: 767px) {
+    
+    /*----- Mobile menu-----*/
+    .header .slicknav_menu {
+        padding: 0;
+        background: #444444;
+    }
+    .bg-color.fixed-top .nav .nav-link {
+        color: #ffffff;
+    }
+    .slicknav_menu .navAnimateBorder .active .nav-link::before,
+    .slicknav_menu .navAnimateBorder .nav-link::before {
+        width: 2px;
+        height: 100%
+    }
+    .slicknav_menu .navAnimateBorder .nav-link:hover::before {
+        display: none;
+    }
+    .header .slicknav_nav .nav {
+        margin: 0;
+    }
+    .header .slicknav_btn {
+        position: relative;
+        padding: 8px 10px;
+        margin: 0;
+        margin-top: -40px;
+        background: transparent;
+    }
+    .slicknav_icon {
+        text-align: right;
+    }
+    .slicknav_icon .slicknav_icon-bar {
+        width: 24px;
+        height: 2px;
+        margin-top: 2px;
+        box-shadow: none;
+    }
+    .slicknav_icon .slicknav_icon-bar {
+        background: #ffffff;
+    }
+    .fixed-top .slicknav_icon .slicknav_icon-bar {
+        background: #444444;
+    }
+    .slicknav_icon .slicknav_icon-bar+.slicknav_icon-bar {
+        margin-top: 5px;
+    }
+    .header .slicknav_nav a {
+        padding: 5px 0 5px 25px;
+        font-weight: 500;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .header .slicknav_nav li {
+        padding: 5px;
+    }
+    .header .slicknav_nav .nav-link:hover,
+    .slicknav_nav .slicknav_item:hover a,
+    .slicknav_nav .slicknav_row:hover {
+        background: #ffffff;
+        color: #000000!important;
+    }
+    .slicknav_nav .slicknav_item a,
+    .slicknav_nav .slicknav_parent-link a {
+        margin: 0;
+        padding: 0;
+    }
+    .header .slicknav_nav .dropdown-menu a {
+        color: #444444;
+    }
+    .header .slicknav_nav .dropdown-menu a:hover {
+        background: #444444;
+        color: #ffffff;
+    }
+    .header-nav__mobile .dropdown-toggle::after {
+        display: none;
+    }
+
+    /*----- Title -----*/
+    .section-title h2::after,
+    .page-title h1::after {
+        left: 52%;
+    }
+}
+
+/*=======================
+ Medium devices (tablets, less than 992px)
+=========================*/
+@media (max-width: 991px) {
+
+    /*----- Footer -----*/
+    .footer-main__logo {
+        margin: 10px 0 24px;
+    }
+}
+
+/*=======================
+ Large devices (desktops, less than 1200px)
+=========================*/
+@media (max-width: 1199px) {
+
+    /*----- Header -----*/
+    .header .header-inner .container {
+        max-width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 1199px) {
+    
+    /*-----  Nav -----*/
+    .header-outter .container {
+        max-width: 100%;
+    }
+    .header-nav__main .nav .nav-link {
+        margin: 0 12px;
+        font-size: 0.8125rem;
+    }
+    
+    /*-----  Owl Slider -----*/
+    .owl-carousel .owl-controls .owl-nav div.owl-prev {
+        left: -40px;
+    }
+    .owl-carousel .owl-controls .owl-nav div.owl-next {
+        right: -40px;
+    }
+}
+
+/*=======================
+ Extra Large devices (desktops)
+=========================*/
+@media (min-width: 1200px) {
+    
+    /*-----  Owl Slider -----*/
+    .owl-carousel .owl-controls .owl-nav div.owl-prev {
+        left: -55px;
+    }
+    .owl-carousel .owl-controls .owl-nav div.owl-next {
+        right: -55px;
+    }    
+}

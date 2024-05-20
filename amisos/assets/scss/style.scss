@@ -1,0 +1,17 @@
+/* Main stylesheet */
+@import 'variables';
+@import 'base';
+@import 'helper-classess';
+@import 'modules/cover';
+@import 'modules/about';
+@import 'modules/feature';
+@import 'modules/CTA';
+@import 'modules/footer';
+.btn-lg {
+    padding: 15px 45px;
+}
+@media screen and (max-width: 991px) {
+    .iphone-img {
+        width: 50%;
+    }
+}

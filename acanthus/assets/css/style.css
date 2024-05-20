@@ -1,0 +1,77 @@
+
+body,
+.font-family-primary {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.9;
+}
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+	font-family: 'Quicksand', sans-serif;
+}
+.bg-secondary a:hover,
+.bg-secondary a:focus {
+	color: #ffffff;
+}
+
+/* Logo */
+.logo img {
+	width: 100%;
+}
+.logo img.logo-img {
+	max-width: 225px;
+}
+.logo img.logo-icon {
+	max-width: 40px;
+}
+
+/* Navbar */
+.header .navbar-nav .nav-link:not(.btn) {	
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  letter-spacing: 1px;
+}
+
+/* Hero */
+.embed-video {
+	border-width: 5px;
+	border-style: solid;
+}
+
+/* Features Grid */
+.icon-wrap i {
+    width: 62px;
+    height: 61px;
+}
+
+/* Store Button */
+.store-btn a {
+  width: 47.5%;
+  padding: 1.5%;
+}
+.store-btn a:last-child {
+  padding-right: 0;
+}
+.store-btn a img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Query */
+@media screen and (max-width: 991px) {
+	/* Features Grid */
+	.feature-grid {
+		border-width: 0!important;
+	}
+}

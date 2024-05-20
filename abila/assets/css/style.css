@@ -1,0 +1,68 @@
+
+body,
+.font-family-primary {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.9;
+}
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 400px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Navbar */
+.header .navbar-nav .nav-link:not(.btn) {	
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-right: .5rem;
+  margin-left: .5rem;
+}
+
+/* Store Button */
+.store-btn a {
+  width: 47.5%;
+  padding: 1.5%;
+}
+.store-btn a:last-child {
+  padding-right: 0;
+}
+.store-btn a img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Query */
+@media screen and (max-width: 991px) {
+  /* App mockup */
+  .credit-wrap {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* App mockup */
+  aside {
+    background-image: url(../../assets/images/mobile-app-bg.png);
+    background-size: cover;
+  }
+}

@@ -1,0 +1,36 @@
+/* Empty Space */
+.space-md {
+    padding: $space_md/2 0;
+}
+.space-lg {
+    padding: $space_lg/2 0;
+}
+/* Box */
+.box {
+    padding: $space_lg;
+    @media screen and (max-width: 991px) {
+        padding: $space_lg/3;
+    }
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+/* section */
+.section {
+    padding: $space_lg 0;
+    @media screen and (max-width: 991px) {
+        padding-bottom: 0;
+    }
+}
+.section .lead {
+    color: #64606d;
+    font-size: 16px;
+    @media screen and (max-width: 991px) {
+        font-size: 14px;
+    }
+    font-weight: $weight_semibold;
+    line-height: 28px;
+}
+.section .icon {
+    width: 42px;
+    height: 42px;
+}

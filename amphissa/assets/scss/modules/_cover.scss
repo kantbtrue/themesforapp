@@ -1,0 +1,55 @@
+/* Cover */
+/* Header */
+.logo {
+    width: 180px;
+    height: 20px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    text-indent: -9999px;
+}
+.header {
+    padding: 30px 0;
+
+    .nav-item .nav-link {
+        color: $light_gray_color;
+        font-weight: $weight_bold;
+        padding: 10px 20px;
+
+        &.active,
+        &:hover,
+        &:focus {
+            color: #000000;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .navbar-nav {
+            margin-top: 16px;
+            background: rgba($primary_color, 0.05);
+        }
+    }
+}
+.navbar-toggler {
+    padding: 15px 17.32px;
+    color: $primary_color;
+    background: rgba($primary_color, 0.05);
+    font-size: 29px;
+}
+/* Hero */
+.hero {
+    padding: 100px 0;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+
+    .hero-content {
+        padding: 20px;
+        background-color: #ffffff;
+    }   
+    .lead {
+        color: #000000;
+        font-weight: $weight_bold;
+    }
+    .play-store-btn img {
+        max-width: 180px;
+        height: auto;
+    }
+}

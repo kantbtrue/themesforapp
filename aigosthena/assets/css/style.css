@@ -1,0 +1,64 @@
+body,
+.font-family-primary {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.85px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Store Button */
+.store-btn a {
+  width: 47.5%;
+  padding: 1.5%;
+}
+.store-btn a:last-child {
+  padding-right: 0;
+}
+.store-btn a img {
+  width: 100%;
+  height: auto;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Hero */
+.hero {
+  overflow: hidden;
+}
+.hero-curve-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+.hero-bg {
+  background-image: url(../images/hero-bg.png);
+  background-size: 135%
+}
+
+/* Footer */
+.footer-logo {
+  max-width: 180px;
+}

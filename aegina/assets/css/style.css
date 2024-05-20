@@ -1,0 +1,142 @@
+body,
+.font-family-primary {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.85px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Rating */
+.stars i {
+  color: #ffcb2e;
+}
+
+/* Wrapper */
+.wrapper {
+  max-width: 1350px;
+}
+
+/* Logo */
+.navbar-brand {
+    background: #000000;
+    width: 250px;
+    padding: 0 10px 4px 70px;
+}
+.logo img {
+  width: 100%;
+}
+.logo .logo-img {
+  max-width: 180px;
+}
+.logo .logo-icon {
+  max-width: 72px;
+}
+
+/* Cover */
+.cover {
+  position: relative;
+  max-height: 760px;
+}
+.scroll-down {
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+}
+
+/* Features */
+.features {
+  overflow-x: hidden;
+}
+.icon-wrap {
+  position: relative;
+}
+.icon__img {
+  width: 32px;
+  margin: 0 auto;
+  height: auto;
+  z-index: 1;
+}
+.icon {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+}
+
+/* Section */
+.section-title {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+.footer-logo__img {
+  width: 200px;
+}
+
+/* Artwork */
+.hero-img-1 {
+    position: absolute;
+    top: -285px;
+    width: 625px;
+    left: -175px;
+    transform: rotate(120deg);
+    z-index: -1;
+    opacity: 1;
+}
+.footer-img-1 {
+    position: absolute;
+    width: 500px;
+    bottom: -170px;
+    right: -50px;
+    z-index: -1;
+}
+.footer-img-2 {
+    position: absolute;
+    width: 300px;
+    transform: rotate(228deg);
+    right: 476px;
+    bottom: -256px;
+    z-index: -1;
+}
+.pattern {
+  position: relative;
+  overflow: hidden;
+}
+.pattern-1 {
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    opacity: 0.18;
+    right: 0;
+    bottom: 25px;
+    transform: rotate(-15deg);
+}
+
+@media screen and (max-width: 991px) {
+  .cover {
+    overflow: hidden;
+  }
+  .navbar-toggler {
+    background: #ffffff;
+    padding: 10px;
+  }
+}

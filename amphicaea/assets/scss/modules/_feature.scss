@@ -1,0 +1,13 @@
+/* Feature */
+.single-feature {
+    .icon {
+        width: 42px;
+        height: auto;
+    }
+    .title {
+        font-weight: $weight_medium;
+    }
+    .lead {
+        font-weight: $weight_normal;
+    }
+}

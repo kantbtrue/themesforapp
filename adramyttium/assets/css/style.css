@@ -1,0 +1,114 @@
+
+body,
+.font-family-primary {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.75px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Hero */
+.cover {
+    position: relative;
+    overflow: hidden;
+}
+.cover::after {
+  content: '';
+  position: absolute;
+  top: 22%;
+  right: 0;
+  margin: 0 auto;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 1170px;
+  max-height: 728px;
+  background-image: url(../images/organic-shape/organic-shape-4.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  z-index: -1;
+}
+
+/* Features */
+.icon-wrap {
+  position: relative;
+}
+.icon__img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5px;
+  width: 90px;
+  margin: 0 auto;
+  z-index: 1;
+}
+.icon {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  z-index: 3;
+}
+/* Pricing */
+.qdo-pricing {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+}
+.qdo-pricing sup {
+    position: absolute;
+    top: 36px;
+    font-size: 26px;
+    left: -15px;
+}
+.pricing .qdo-pricing {
+  font-size: 80px;
+}
+.pricing-wrap.active {
+  background-image: linear-gradient(-225deg, #fcbf23 0%, #f6e12f 48%, #fcbf23 100%);
+}
+.price__amount {
+  font-size: 400%;
+  line-height: 1.25;
+}
+.price__currency {
+    line-height: .8;
+}
+.pricing .active {
+    margin: 0;
+    z-index: 3;
+}
+.pricing-inner__info {
+    margin-top: -35px
+}
+
+/* Media Query */
+@media screen and (max-width: 767px) {
+  .cover::after {
+    display: none;
+  }
+}

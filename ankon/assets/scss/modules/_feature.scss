@@ -1,0 +1,21 @@
+/* Feature */
+.feature {
+    .single-feature {
+        .title {
+            font-weight: $weight_bold;
+        }
+        h3.title {
+            font-size: 24px;
+        }
+        h4.title {
+            font-size: 18px;
+        }
+        .feature-img {
+            height: 125px;
+            margin: 0 auto;
+        }
+        .feature-more {
+            font-weight: $weight_bold;
+        }
+    }
+}

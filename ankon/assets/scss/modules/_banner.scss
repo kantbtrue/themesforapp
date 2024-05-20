@@ -1,0 +1,9 @@
+/* Banner */
+.banner {
+    color: #ffffff;
+    background-color: darken($secondary_color, 5%);
+
+    .banner-btn {
+        border-radius: 25px;
+    }
+}

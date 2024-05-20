@@ -1,0 +1,1329 @@
+/*====================================
+Template Name:  Orator
+Author Name:    QDONOW Themes
+Author URI:     http://qdonow.com
+Description:    Multipurpose HTML Template
+Version:        1.0
+======================================*/
+
+
+/*=======================================
+Table of contents
+* Basic
+* Animation Keyframes
+* Buttons
+* Icon Styles
+* Nav Animate Border
+* Progress
+* OWL Slider
+* Box Shadow
+* List Cloud
+* Form
+* Header
+* Section
+* Hero
+* About Me
+* Services
+* Project
+* Video
+* Team
+* Prices
+* Testimonial
+* Blog
+* Page
+* Post
+* Sidebar
+* Stats
+* Contact
+* Brands
+* Footer
+* Overlay and Overlay Animate
+* Background Color
+* Extra and Gradient
+=========================================*/
+
+
+/*=======================
+    Basic
+=========================*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    overflow: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+input,
+button,
+textarea {
+    outline: none;
+    text-decoration: none;
+}
+
+img,
+svg {
+    vertical-align: bottom;
+}
+
+
+/*=======================
+    End Basic
+=========================*/
+
+
+/*=======================
+    Animation Keyframes
+=========================*/
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+@-webkit-keyframes wobble-vertical {
+    15% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    30% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    45% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    60% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    75% {
+        -webkit-transform: translateY(1px);
+        transform: translateY(1px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes wobble-vertical {
+    15% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    30% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    45% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    60% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    75% {
+        -webkit-transform: translateY(1px);
+        transform: translateY(1px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes cubemove {
+    25% {
+        -webkit-transform: translateX(12px) rotate(-90deg) scale(0.5);
+        transform: translateX(12px) rotate(-90deg) scale(0.5);
+    }
+    50% {
+        -webkit-transform: translateX(12px) translateY(12px) rotate(-179deg);
+        transform: translateX(12px) translateY(12px) rotate(-179deg);
+    }
+    50.1% {
+        -webkit-transform: translateX(12px) translateY(12px) rotate(-180deg);
+        transform: translateX(12px) translateY(12px) rotate(-180deg);
+    }
+    75% {
+        -webkit-transform: translateX(0px) translateY(12px) rotate(-270deg) scale(0.5);
+        transform: translateX(0px) translateY(12px) rotate(-270deg) scale(0.5);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes cubemove {
+    25% {
+        -webkit-transform: translateX(12px) rotate(-90deg) scale(0.5);
+        transform: translateX(12px) rotate(-90deg) scale(0.5);
+    }
+    50% {
+        -webkit-transform: translateX(12px) translateY(12px) rotate(-179deg);
+        transform: translateX(12px) translateY(12px) rotate(-179deg);
+    }
+    50.1% {
+        -webkit-transform: translateX(12px) translateY(12px) rotate(-180deg);
+        transform: translateX(12px) translateY(12px) rotate(-180deg);
+    }
+    75% {
+        -webkit-transform: translateX(0px) translateY(12px) rotate(-270deg) scale(0.5);
+        transform: translateX(0px) translateY(12px) rotate(-270deg) scale(0.5);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+
+/*=======================
+    End Animation Keyframes
+=========================*/
+
+
+/*=======================
+    Buttons
+=========================*/
+
+.btn__wobble:hover {
+    -webkit-animation: wobble-vertical 0.6s ease-in-out 1;
+    animation: wobble-vertical 0.6s ease-in-out 1;
+}
+
+
+/*=======================
+    End Buttons
+=========================*/
+
+
+/*=======================
+    Icon Style
+=========================*/
+
+
+/*----- Icon Rings -----*/
+
+.icon-rings {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 25px auto 50px;
+}
+
+.icon-rings::before,
+.icon-rings::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    content: "";
+    background-color: inherit;
+}
+
+.icon-rings::before {
+    -webkit-transition: opacity 0.4s ease;
+    -o-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+    -webkit-transform: scale(1.45);
+    -ms-transform: scale(1.45);
+    transform: scale(1.45);
+    z-index: -2;
+    opacity: 0.15;
+}
+
+.icon-rings::after {
+    -webkit-transition: opacity 0.8s ease;
+    -o-transition: opacity 0.8s ease;
+    transition: opacity 0.8s ease;
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+    z-index: -1;
+    opacity: 0.25;
+}
+
+.icon-rings img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+
+/*----- End Icon Rings -----*/
+
+
+/*=======================
+    End Icon Style
+=========================*/
+
+
+/*=======================
+    Nav Border Animate
+=========================*/
+
+.navAnimateBorder .nav-link {
+    position: relative;
+}
+
+.navAnimateBorder .nav-link::before {
+    content: "";
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #29B6F6;
+    opacity: 0;
+}
+
+.navAnimateBorder .nav-link:hover::before,
+.navAnimateBorder .active .nav-link::before {
+    width: 100%;
+    opacity: 1;
+}
+
+
+/*=======================
+    End Nav Border Animate
+=========================*/
+
+
+/*=======================
+    Progress
+=========================*/
+
+.single-progress__bar {
+    position: relative;
+    height: 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.single-progress__bg {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+}
+
+.single-progress__bar .single-progress__bg span {
+    position: absolute;
+    right: 0;
+    top: -22px;
+    text-align: right;
+}
+
+
+/*=======================
+    End Progress
+=========================*/
+
+
+/*=======================
+    OWL Slider
+=========================*/
+
+.owl-nav {
+    margin: 0;
+}
+
+.owl-theme .owl-controls .owl-nav div {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: transparent no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+}
+
+.owl-controls .owl-nav div:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-indent: 0;
+    font-family: 'Fontawesome';
+    line-height: 50px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.owl-controls .owl-nav div.owl-prev:before {
+    content: '\f104';
+}
+
+.owl-controls .owl-nav div.owl-next:before {
+    content: '\f105';
+}
+
+.owl-theme .owl-controls .owl-nav div:hover,
+.owl-controls .owl-nav div:hover::before {
+    background: transparent;
+}
+
+.owl-controls .owl-nav div:hover:before {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*=======================
+    End OWL Slider
+=========================*/
+
+
+/*=======================
+    Box Shadow
+=========================*/
+
+.box-shadow {
+    -webkit-transition: -webkit-box-shadow 0.25s ease;
+    transition: -webkit-box-shadow 0.25s ease;
+    -o-transition: box-shadow 0.25s ease;
+    transition: box-shadow 0.25s ease;
+    transition: box-shadow 0.25s ease, -webkit-box-shadow 0.25s ease;
+    border-width: 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-shadow:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/*=======================
+    End Box Shadow
+=========================*/
+
+
+/*=======================
+    Header
+=========================*/
+
+.header {
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 991;
+}
+
+.fixed-top {
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.header-inner {
+    padding: 20px 0;
+}
+
+.fixed-top .header-inner {
+    padding: 15px 0;
+}
+
+
+/*----- Logo -----*/
+
+.header-logo a {
+    line-height: 28px;
+}
+
+.logo img,
+.logo svg {
+    width: 190px;
+    height: auto;
+}
+
+.fixed-logo,
+.fixed-top .no-fixed-logo {
+    display: none;
+}
+
+.no-fixed-logo,
+.fixed-top .fixed-logo {
+    display: block;
+}
+
+
+/*----- End Logo -----*/
+
+
+/*----- Nav -----*/
+
+.header-nav__main a,
+.header .slicknav_nav a {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+.header-nav__main .nav .nav-link {
+    margin: 0 15px;
+    padding: 5px 0;
+}
+
+.header .navAnimateBorder .nav-link::before {
+    background-color: #ffffff;
+}
+
+.header.fixed-top .header-nav__main .nav .nav-link {
+    color: #444444!important;
+}
+
+.header.fixed-top .navAnimateBorder .nav-link::before {
+    background-color: #444444;
+}
+
+
+/*----- End Nav -----*/
+
+
+/*=======================
+    End Header
+=========================*/
+
+
+/*=======================
+    Section
+=========================*/
+
+.section {
+    position: relative;
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+.section svg {
+    z-index: 99;
+}
+
+.section .curve-bottom {
+    width: 100%;
+}
+
+.section .absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*----- Title -----*/
+
+.section-title h2 {
+    position: relative;
+    padding: 30px 0;
+}
+
+.section-title h2::before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    content: "";
+    left: 50%;
+    margin-left: -25px;
+    bottom: -1px;
+    border: 2px solid #29B6F6;
+    border-bottom: none;
+    border-right: none;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.section-title h2::after {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    content: "";
+    left: 51%;
+    margin-left: -25px;
+    bottom: -1px;
+    border: 2px solid #29B6F6;
+    border-bottom: none;
+    border-right: none;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/*----- End Title -----*/
+
+.section-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*=======================
+    End Section
+=========================*/
+
+
+/*=======================
+    Hero
+=========================*/
+
+.hero {
+    max-height: 700px;
+    padding-bottom: 0;
+}
+
+.hero.section-image {
+    background-image: url('../images/bg-hero.jpg');
+}
+
+.hero img {
+    max-width: 100%;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+/*-----Gradient -----*/
+
+#canvas-basic,
+#particles-js {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/*----- End Gradient -----*/
+
+
+/*=======================
+    End Hero
+=========================*/
+
+
+/*=======================
+    About Me
+=========================*/
+
+
+/*----- Play Button -----*/
+
+.about .btn-play {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    padding: 2px 0 0 6px;
+    border-color: #ffffff;
+    background-color: rgba(41, 182, 246, 0.85);
+    -webkit-box-shadow: 0 0 0 0 rgba(41, 182, 246, 1);
+    box-shadow: 0 0 0 0 rgba(41, 182, 246, 1);
+    color: #ffffff;
+}
+
+
+/*----- End Play Button -----*/
+
+
+/*=======================
+    End About Me
+=========================*/
+
+
+/*=======================
+    Services
+=========================*/
+
+
+/*----- Single Feature -----*/
+
+.single-feature {
+    position: relative;
+    z-index: 81;
+}
+
+
+/*----- End Single Feature -----*/
+
+
+/*=======================
+    End Services
+=========================*/
+
+
+/*=======================
+    Project
+=========================*/
+
+
+/*----- Nav -----*/
+
+.project-nav .nav-link {
+    margin: 0 15px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+
+/*----- End Nav -----*/
+
+.single-project {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*=======================
+    End Project
+=========================*/
+
+
+/*=======================
+    Video
+=========================*/
+
+.video-intro.section-image {
+    background-image: url('../images/bg-video.jpg');
+}
+
+.video-intro h2::before,
+.video-intro h2::after {
+    display: none;
+}
+
+
+/*----- Play Button -----*/
+
+.video-intro .btn-play {
+    padding: 8px 20px 8px 50px;
+}
+
+.video-intro .btn-play i {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    padding: 8px 11px;
+    background: #ffffff;
+    color: rgb(41, 182, 246);
+}
+
+
+/*----- End Play Button -----*/
+
+
+/*=======================
+    End Video
+=========================*/
+
+
+/*=======================
+    Team
+=========================*/
+
+
+/*----- Single Team -----*/
+
+.single-team__text {
+    top: auto;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.single-team__text,
+.single-team__text p {
+    color: #ffffff;
+}
+
+.single-team__social {
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+}
+
+.single-team__social a {
+    padding: 4px 7px;
+    margin: 3px 4px;
+    width: 22px;
+    text-align: center;
+}
+
+.single-team__social li:last-child a {
+    margin-bottom: 4px;
+}
+
+.single-team:hover .single-team__social {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*----- End Single Team -----*/
+
+
+/*=======================
+    End Team
+=========================*/
+
+
+/*=======================
+    Prices
+=========================*/
+
+
+/*----- Single Price -----*/
+
+.single-price__title {
+    font-weight: 300;
+}
+
+
+/*-- Price --*/
+
+.price {
+    margin: 10px 0;
+}
+
+.price__amount {
+    font-size: 3.250rem;
+    font-weight: 700;
+}
+
+.price__info {
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+}
+
+
+/*-- End Price --*/
+
+.single-price__info {
+    margin: 15px 0;
+}
+
+.single-price__info i {
+    color: #b2d345;
+}
+
+.single-price__info li {
+    padding: 5px 0;
+}
+
+
+/*----- End Single Price -----*/
+
+
+/*=======================
+    End Prices
+=========================*/
+
+
+/*=======================
+    Testimonial
+=========================*/
+
+.testimonial.section-image {
+    background-image: url('../images/bg-testimonial.jpg');
+    background-repeat: repeat-x;
+}
+
+.single-testimonial {
+    font-size: 1.125rem;
+}
+
+.single-testimonial__name {
+    font-weight: 700;
+}
+
+.single-testimonial__site a {
+    font-size: 1rem;
+}
+
+
+/*----- Slider -----*/
+
+#testimonial .owl-dot span {
+    border: 1px solid #444444;
+    background: rgba(41, 182, 246, 0.85);
+}
+
+#testimonial .owl-dot.active span {
+    background: transparent;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+/*----- End Slider -----*/
+
+
+/*=======================
+    End Testimonial
+=========================*/
+
+
+/*=======================
+    Stats
+=========================*/
+
+.stats.section-image {
+    background-image: url('../images/bg-stats.jpg');
+}
+
+.single-stat {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.single-stat__icon i {
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.single-stat__counter {
+    font-size: 2.625rem;
+    font-weight: 100;
+}
+
+
+/*=======================
+    End Stats
+=========================*/
+
+
+/*=======================
+    Contact
+=========================*/
+
+.contact.section-image {
+    background-image: url('../images/bg-contact.jpg');
+}
+
+.contact .section-title h2::before,
+.contact .section-title h2::after {
+    display: none;
+}
+
+
+/*=======================
+    End Contact
+=========================*/
+
+
+/*=======================
+    Brands
+=========================*/
+
+.single-brand {
+    padding: 10px 10px 0;
+}
+
+
+/*=======================
+    End Brands
+=========================*/
+
+
+/*=======================
+    Footer
+=========================*/
+
+.footer-main__logo,
+.footer-main__logo img {
+    height: 32px;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.footer .nav-link {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #242526;
+}
+
+.footer-description {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    font-size: 0.8125rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #747474;
+}
+
+
+/*----- Back To Top -----*/
+
+#scrollUp {
+    bottom: 25px;
+    right: 25px;
+    background: #29B6F6;
+    color: #ffffff;
+    font-size: 1.5rem;
+    opacity: 0.88;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+}
+
+#scrollUp:hover {
+    opacity: 1;
+}
+
+
+/*----- End Back To Top -----*/
+
+
+/*----- Preloader -----*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 9999;
+}
+
+.loader-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0 auto;
+}
+
+.loader-cube {
+    -webkit-animation: cubemove 2s infinite ease-in-out;
+    animation: cubemove 2s infinite ease-in-out;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(41, 182, 246, 0.8);
+}
+
+.loader-cube:nth-child(2) {
+    -webkit-animation-delay: -1.5s;
+    animation-delay: -1.5s;
+}
+
+.loader-cube:nth-child(3) {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+
+.loader-cube:nth-child(4) {
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+
+/*----- End Preloader -----*/
+
+
+/*=======================
+    End Footer
+=========================*/
+
+
+/*=======================
+    Overlay & Overlay Animate
+=========================*/
+
+.overlay,
+.overlayAnimate {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay::before,
+.overlayAnimate::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(41, 182, 246, 0.5);
+}
+
+.overlay h1,
+.overlay h2,
+.overlay .section-title,
+.section.overlay p,
+.overlay i,
+.overlay .header-logo a,
+.overlay .nav .nav-link {
+    color: #ffffff;
+}
+
+.overlay .section-title h2::before,
+.overlay .section-title h2::after {
+    display: none;
+}
+
+
+/*----- Overlay Animate -----*/
+
+.overlayAnimate::before {
+    background: rgba(41, 182, 246, 0.8);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: hidden;
+    z-index: 91;
+}
+
+.overlayAnimate:hover::before {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+}
+
+.overlayAnimate__img {
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.overlayAnimate:hover .overlayAnimate__img {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.overlayAnimate__text {
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: hidden;
+    z-index: 92;
+}
+
+.overlayAnimate:hover .overlayAnimate__text {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    visibility: visible;
+}
+
+
+/*=======================
+    End Overlay
+=========================*/
+
+
+/*=======================
+    Extra and Gradient
+=========================*/
+
+.mfp-bg {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9992;
+}
+
+.mfp-wrap {
+    z-index: 9993;
+}
+
+.equal-height > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.btn-play {
+    position: relative;
+}
+
+.btn-play__pulse {
+    -webkit-animation: pulse 1.5s cubic-bezier(0.8, 0, 0, 1) infinite;
+    animation: pulse 1.5s cubic-bezier(0.8, 0, 0, 1) infinite;
+}
+
+.btn__wobble:hover {
+    -webkit-animation: wobble-vertical 0.6s ease-in-out 1;
+    animation: wobble-vertical 0.6s ease-in-out 1;
+}
+
+.overlay::before {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(34, 139, 230, 0.6)), to(rgba(66, 190, 247, 0.6)));
+    background-image: -webkit-linear-gradient(bottom, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+    background-image: linear-gradient(to top, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+}
+
+.hero.overlay::before,
+.page-overlay::before {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(34, 139, 230, 0.6)), to(rgba(66, 190, 247, 0.6)));
+    background-image: -webkit-linear-gradient(bottom, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+    background-image: linear-gradient(to top, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+}
+
+.overlay .btn-simple {
+    color: #ffffff;
+}
+
+.about .btn-play,
+.video-intro .btn-play i {
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(34, 139, 230, 0.6)), to(rgba(66, 190, 247, 0.6)));
+    background-image: -webkit-linear-gradient(bottom, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+    background-image: linear-gradient(to top, rgba(34, 139, 230, 0.6) 0%, rgba(66, 190, 247, 0.6) 100%);
+    color: #ffffff;
+}
+
+.overlay .btn-play,
+.overlay#testimonial .owl-dot span {
+    border-color: #ffffff;
+}
+
+.single-testimonial__rating span i {
+    background-image: -webkit-linear-gradient(330deg, #FFEB3B 0%, #FFC107 100%);
+    background-image: -o-linear-gradient(330deg, #FFEB3B 0%, #FFC107 100%);
+    background-image: linear-gradient(120deg, #FFEB3B 0%, #FFC107 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overlay .btn-play,
+.overlay .single-testimonial__site a {
+    color: #ffffff;
+}
+
+
+/*=======================
+    End Extra and Gradient
+=========================*/

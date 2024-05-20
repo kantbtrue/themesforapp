@@ -1,0 +1,151 @@
+/*
+
+Button CSS
+Version: 2.0
+Author: kantbtrue
+Author URI: https://twitter.com/kantbtrue
+
+*/
+
+.btn-full {
+  width: 100%;
+}
+
+/* roundeded */
+.btn-rounded,
+.btn-lg.btn-rounded {
+  border-radius: 50px;
+}
+.btn-sm.btn-rounded {
+  border-radius: 25px;
+}
+
+/* Shadow */
+.btn-shadow {
+    position: relative;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 3;
+}
+.btn-shadow::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -10%;
+  left: 5%;
+  height: 110%;
+  width: 90%;
+  opacity: 0.499;
+
+  /* Inheriting our border radius */
+  border-radius: inherit;
+  
+  /* Declaring our shadow color inherit from the parent (button) */
+  backgrounded: inherit;
+  
+  /* Blurring the element for shadow effect */
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  -o-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: blur(6px);
+  
+  /* Transition */
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.btn-shadow:hover::before {
+  /* Changing blur effect */
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+
+  /* And change the style properties */
+  width: 100%;
+  bottom: -5%;
+  left: 0;
+}
+.btn-shadow:hover:active::before,
+.btn-shadow:hover:focus::before {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+/* Edge does not support blur effect, so we can just delete the shadow */
+@supports (-ms-ime-align: auto) {
+  .btn-shadow::before, .btn-shadow:hover::before, .btn-shadow:active::before {
+    display: none;
+  }
+}
+
+/* And IE does not support CSS variables and blur effect, so.. */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* Deleting the shadow */
+  .btn-shadow::before, .btn-shadow:hover::before, .btn-shadow:active::before {
+    display: none;
+  }
+}
+
+.btn-lift-up:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Line */
+.a-line {
+  position: relative;
+  border-width: 0;
+}
+.a-line::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  border-bottom: 2px solid transparent;
+  border-bottom-color: inherit;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.nav-link.a-line::before,
+.btn.a-line::before {
+  bottom: .5rem;
+}
+.a-line:hover::before {
+  border-bottom-color: inherit;
+}
+.a-line-animate-1::before {
+  width: 0;
+  opacity: 0;
+}
+.a-line-animate-1:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+.a-line-animate-2::before {
+  transform: scaleX(0);
+  opacity: 0;
+}
+.a-line-animate-2:hover::before {
+  transform: scaleX(1);
+  opacity: 1;
+}
+@media screen and (max-width: 991px) {
+  .nav-link.a-line-animate-1::before,
+  .nav-link.a-line-animate-2::before {
+    display: none;
+  }
+}

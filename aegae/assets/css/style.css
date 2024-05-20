@@ -1,0 +1,45 @@
+
+body,
+.font-family-primary {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.75px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Store Button */
+.store-btn a {
+  width: 47.5%;
+  padding: 1.5%;
+}
+.store-btn a:last-child {
+  padding-right: 0;
+}
+.store-btn a img {
+  width: 100%;
+  height: auto;
+}

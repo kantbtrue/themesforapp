@@ -1,0 +1,39 @@
+/* Base */
+body {
+    font-family: $primary_font;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: $primary_font;
+}
+h1 {
+    font-size: 62px;
+    @media screen and (max-width: 991px) {
+        font-size: 38px;
+    }
+    font-weight: $weight_bold;
+}
+h2 {
+    font-size: 42px;
+    @media screen and (max-width: 991px) {
+        font-size: 32px;
+    }
+    font-weight: $weight_bold;
+    line-height: 54px;
+    @media screen and (max-width: 991px) {
+        line-height: 44px;
+    }
+}
+h3 {
+    font-size: 30px;
+    font-weight: $weight_bold;
+    line-height: 42px;
+}
+p {
+    margin: 0;
+}

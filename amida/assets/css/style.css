@@ -1,0 +1,43 @@
+
+body,
+.font-family-primary {
+	font-family: 'Lato', sans-serif;
+}
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+	font-family: 'Lato', sans-serif;
+}
+.wrapper {
+  min-height: 767px;
+}
+.wrapper.section-overlay::before {
+	background-color: #79baff;
+  background-image: -webkit-linear-gradient(54deg, transparent 67%, #007aff 67%), -webkit-linear-gradient(62deg, #a7d1ff 38%, transparent 38%);
+  background-size: cover;
+  opacity: 0.25;
+}
+
+/* Logo */
+.logo-img {
+  width: 200px;
+  height: auto;
+}
+
+/* Cover */
+.cover {
+
+}
+.aside-img {
+  width: 82%;
+  margin: 0 auto;
+}

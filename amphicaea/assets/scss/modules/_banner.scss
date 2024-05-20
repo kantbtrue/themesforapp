@@ -1,0 +1,8 @@
+/* Banner */
+.banner-inner {
+    background-color: rgba(0,0,0,0.015);
+
+    .banner-img {
+        @extend .hero-img;
+    }
+}

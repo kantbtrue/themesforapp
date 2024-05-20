@@ -1,0 +1,49 @@
+body,
+.font-family-primary {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.85px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Hero */
+.hero {
+  overflow: hidden;
+}
+
+/* Features */
+.features-icon {
+  width: 32px;
+}
+
+/* Footer */
+.footer-logo {
+  max-width: 180px;
+}
+.footer-logo-icon {
+  max-width: 32px;
+}

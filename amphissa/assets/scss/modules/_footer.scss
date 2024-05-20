@@ -1,0 +1,13 @@
+/* Footer */
+.footer {
+    padding: $space_md 0;
+    color: #ffffff;
+    background-color: darken($secondary_color, 64%);
+
+    .nav-link {
+        color: #ffffff;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}

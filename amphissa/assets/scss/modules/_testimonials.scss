@@ -1,0 +1,25 @@
+/* Testimonials */
+.single-testimonial {
+    border: 0;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right, darken($secondary_color, 20%), darken($primary_color, 15%));
+        opacity: 0.35;
+    }
+    .card-img {
+        border-radius: unset;
+    }
+    .card-img-overlay {
+        top: unset;
+        margin-top: auto;
+    }
+    .card-title {
+        font-weight: $weight_bold;
+    }
+}

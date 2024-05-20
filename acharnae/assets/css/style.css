@@ -1,0 +1,85 @@
+
+body,
+.font-family-primary {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.75px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-family-secondary {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo */
+.logo img {
+  width: 100%;
+}
+.logo img.logo-img {
+  max-width: 180px;
+}
+.logo img.logo-icon {
+  max-width: 40px;
+}
+
+/* Navbar */
+.header .navbar-nav .nav-link:not(.btn) { 
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-right: .5rem;
+  margin-left: .5rem;
+}
+
+/* Hero */
+.hero.section-bg {
+  background-image: url(../images/organic-shape/organic-shape-3.svg);
+  background-repeat: no-repeat;
+  background-size: 200% 115%;
+}
+.hero form input, .hero form button {
+    border-radius: unset;
+    padding: 10px 14px;
+}
+.hero form input {
+  box-shadow: 0 0px 5px 2px rgba(0,0,0,0.03)
+}
+
+/* Features */
+.icon-wrap {
+  position: relative;
+}
+.icon__img {
+  position: absolute;
+  top: 10px;
+  width: 50px;
+  margin: 0 auto;
+  z-index: 1;
+}
+.icon__img-left {
+  left: 0;
+}
+.icon__img-right {
+  right: 0;
+}
+.icon {
+  position: relative;
+  z-index: 3;
+}
+.icon.color-1 {
+  color: #BFC42A;
+}
+.icon.color-2 {
+  color: #F86B66;
+}
+.icon.color-3 {
+  color: #A6AA2D;
+}

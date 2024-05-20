@@ -1,0 +1,13 @@
+/* Main stylesheet */
+@import 'variables';
+@import 'base';
+@import 'helper-classess';
+@import 'modules/cover';
+@import 'modules/about';
+@import 'modules/feature';
+@import 'modules/testimonials';
+@import 'modules/CTA';
+@import 'modules/footer';
+.btn-lg {
+    padding: 10px 35px;
+}

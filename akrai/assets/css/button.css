@@ -1,0 +1,82 @@
+/*
+
+Button CSS
+Version: 2.0
+Author: kantbtrue
+Author URI: https://twitter.com/kantbtrue
+
+*/
+
+.btn-full {
+    width: 100%;
+}
+
+.btn {
+    min-width: 130px;
+    min-height: 32px;
+    font-weight: 500;
+    letter-spacing: 0.035em;
+    cursor: pointer;
+}
+
+.btn:active,
+.btn:focus {
+    opacity: 0.55;
+}
+
+
+/* Button Size */
+
+.btn-sm {
+    padding: 5px 15px;
+    font-size: 0.75rem;
+    line-height: 28px;
+    letter-spacing: 0.075em;
+}
+
+.btn-md {
+    padding: 10px 30px;
+    font-size: 0.8125rem;
+    line-height: 26px;
+    letter-spacing: 0.065em;
+}
+
+.btn-lg {
+    padding: 18px 55px;
+    font-size: 1.125rem;
+    line-height: 34px;
+}
+
+
+/* Roundeded */
+
+.btn-rounded,
+.btn-lg.btn-rounded {
+    border-radius: 50px;
+}
+
+.btn-sm.btn-rounded {
+    border-radius: 25px;
+}
+
+/* Extended */
+
+
+.btn-primary,
+.btn-secondary {
+    border: 2px solid transparent;
+}
+
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-white,
+.btn-outline-black {
+    border-width: 2px;
+}
+
+
+/* Shadow */
+
+.btn-shadow {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1)
+}
