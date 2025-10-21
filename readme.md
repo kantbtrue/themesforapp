@@ -1,5 +1,5 @@
 
-![Logo](https://themesfor.app/assets/images/logo.svg)
+![Logo](https://themesfor.app/images/logo.svg)
 
 
 # Themes For App
